@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    background: url(images/bg.jpg) no-repeat center / cover;
+}
+form{
+    position: absolute;
+    width: 500px;
+    padding: 50px 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(255, 255, 255, .6);
+    border-radius: 20px;
+}
+label{
+    font-weight: 500;
+    color: black;
+}
+input{
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    padding: 12px;
+    border-radius: 5px ;
+    outline: none;
+    color: black;
+}
+#password{
+    margin-bottom: 30px;
+}
+input[type="password"]{
+    border: 2px solid white;
+}
+input[type="button"]{
+    background-color: blueviolet;
+    border: none;
+    color: azure;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-top: 20px;
+
+}   
+p{
+    font-size: 14px;
+    margin: 15px 0;
+    display: inline-block;
+    color: black;
+}
